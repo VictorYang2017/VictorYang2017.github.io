@@ -1,0 +1,14 @@
+ul{
+    width:275px
+}
+
+li{
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-top:3px;
+}
+
+/* .Results{
+    display: flex;
+} */

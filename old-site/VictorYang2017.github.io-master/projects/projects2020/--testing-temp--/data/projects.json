@@ -1,0 +1,138 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "slug": "world-animal-protection",
+      "title": "World animal protection",
+      "description": "(course assignment)This is a multiple devices responsive wordpress custom theme, the purpose of this website is to make sure that the client(World animal protection) is able to create, remove and update their own contents(which includes text information, images, icons and products).",
+      "technologies": [
+        "Wordpress",
+        "Wordpress Customization API",
+        "Woocommerce",
+        "PHP",
+        "HTML",
+        "CSS",
+        "FoundationPress"
+      ],
+      "projectSite": "http://victor.yang.wux.yoobee.net.nz/worldanimalprotection/",
+      "projectCode": "https://github.com/VictorYang2017/world-animal-protection",
+      "projectImages": {
+        "mainImage": "world-animal-protection-main",
+        "subImages": [
+          "world-animal-protection-second",
+          "world-animal-protection-third"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "slug": "simple-to-do-list",
+      "title": "Simple todo list",
+      "description": "Aenean ut ante urna. Mauris non tincidunt ex, euismod dignissim eros. Praesent ultricies placerat facilisis. Vivamus volutpat dui id eros pharetra porta. Praesent congue ligula dignissim sodales dignissim. Duis imperdiet felis est, non euismod est cursus a. Maecenas vel dignissim diam.",
+      "technologies": ["abc", "bac", "cba"],
+      "projectSite": "WWWabcabcabcabcDOTcom",
+      "projectCode": "https://github.com/",
+      "projectImages": {
+        "mainImage": "simple-to-do-list-main",
+        "subImages": [
+          "simple-to-do-list-second",
+          "simple-to-do-list-third"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "slug": "website-login",
+      "title": "Website login",
+      "description": "Aenean ut ante urna. Mauris non tincidunt ex, euismod dignissim eros. Praesent ultricies placerat facilisis. Vivamus volutpat dui id eros pharetra porta. Praesent congue ligula dignissim sodales dignissim. Duis imperdiet felis est, non euismod est cursus a. Maecenas vel dignissim diam.",
+      "technologies": ["abc", "bac", "cba"],
+      "projectSite": "WWWabbabbabbabbDOTcom",
+      "projectCode": "https://codepen.io/",
+      "projectImages": {
+        "mainImage": "website-login-main",
+        "subImages": [
+          "website-login-second",
+          "website-login-third"
+        ]
+      }
+    },
+    {
+      "id": 0,
+      "slug": "coming-soon",
+      "title": "Coming soon!",
+      "description": "Coming soon!",
+      "technologies": ["coming soon"],
+      "projectSite": "#",
+      "projectCode": "#",
+      "projectImages": {
+        "mainImage": "#",
+        "subImages": ["#", "#", "#"]
+      }
+    },
+    {
+      "id": 0,
+      "slug": "coming-soon",
+      "title": "Coming soon!",
+      "description": "Coming soon!",
+      "technologies": ["coming soon"],
+      "projectSite": "#",
+      "projectCode": "#",
+      "projectImages": {
+        "mainImage": "#",
+        "subImages": ["#", "#", "#"]
+      }
+    },
+    {
+      "id": 0,
+      "slug": "coming-soon",
+      "title": "Coming soon!",
+      "description": "Coming soon!",
+      "technologies": ["coming soon"],
+      "projectSite": "#",
+      "projectCode": "#",
+      "projectImages": {
+        "mainImage": "#",
+        "subImages": ["#", "#", "#"]
+      }
+    },
+    {
+      "id": 0,
+      "slug": "coming-soon",
+      "title": "Coming soon!",
+      "description": "Coming soon!",
+      "technologies": ["coming soon"],
+      "projectSite": "#",
+      "projectCode": "#",
+      "projectImages": {
+        "mainImage": "#",
+        "subImages": ["#", "#", "#"]
+      }
+    },
+    {
+      "id": 0,
+      "slug": "coming-soon",
+      "title": "Coming soon!",
+      "description": "Coming soon!",
+      "technologies": ["coming soon"],
+      "projectSite": "#",
+      "projectCode": "#",
+      "projectImages": {
+        "mainImage": "#",
+        "subImages": ["#", "#", "#"]
+      }
+    },
+    {
+      "id": 0,
+      "slug": "coming-soon",
+      "title": "Coming soon!",
+      "description": "Coming soon!",
+      "technologies": ["coming soon"],
+      "projectSite": "#",
+      "projectCode": "#",
+      "projectImages": {
+        "mainImage": "#",
+        "subImages": ["#", "#", "#"]
+      }
+    }
+  ]
+}
