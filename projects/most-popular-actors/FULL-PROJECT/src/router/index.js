@@ -24,8 +24,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	// history: createWebHistory('/projects/projects2020/vue-two/'),
-	history: createWebHistory(),
+	history: createWebHistory('/projects/most-popular-actors/'),
 	routes,
 });
 
