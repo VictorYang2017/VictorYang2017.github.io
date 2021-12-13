@@ -1,0 +1,12 @@
+.section-container{
+    width:$secondary-mobile-width;
+    margin: 0 auto;
+    max-width: $secondary-max-width;
+}
+
+@media only screen and (min-width: 56.25rem) {
+    /* 900px */
+    .section-container{
+        width:$secondary-desktop-width;
+    }
+}

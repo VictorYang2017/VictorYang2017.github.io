@@ -1,0 +1,14 @@
+(html,css,js) 4k ready portfolio website
+-------------------------------------------------- 
+(Wordpress)world animal protection
+(html,css,js) simple crud todo list
+(html,css,jquery) website login
+(html,css,js) testimonials
+(html,css,vue3) the movie database
+(html,css,react,redux) accommodations search
+-------------------------------------------------- (Team tree house projects, below)
+Data Pagination and filtering
+Public API filter with model
+SQL Library manager
+Full-stack app school database
+

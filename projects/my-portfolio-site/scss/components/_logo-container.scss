@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    padding-top: 1.4rem;
+    .logo-container{
+        padding-top:0.5rem;
+        flex: 1;
+        img{
+            width: 3.5rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    header{
+        .logo-container{
+            img{
+                width: 3.8rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 121rem) {
+    header{
+        .logo-container{
+            img{
+                width: 4.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 161rem) {
+    header{
+        padding-top: 3rem;
+        .logo-container {
+            padding-top: 1rem;
+            img{
+                width: 6.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,347 @@
+#project-container {
+	@include section-background-image('../assets/cloud-with-opacity.png');
+	background-color: $section-background-color;
+}
+
+/* Project images section */
+.project-images-section {
+	header {
+		.project-title-container {
+			@include display-flex-full(flex-end, center);
+			flex: 4;
+			h2 {
+				font-size: 1.3rem;
+				text-align: right;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.project-images-container-loading {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 8rem 0 8rem 0;
+	}
+
+	.project-images-container {
+		display: none;
+		flex-direction: column;
+		padding: 2rem 0 2.5rem 0;
+
+		.project-main-image {
+			.main-image {
+				width: 100%;
+				border: 4px solid #fff;
+			}
+		}
+
+		.project-secondary-images {
+			.secondary-images {
+				width: 100%;
+				border: 4px solid #fff;
+			}
+		}
+
+		.secondary-image-one {
+			margin: 0.8rem 0;
+		}
+	}
+}
+
+/* Project images section media queries*/
+@media only screen and (min-width: 38.75rem) {
+	.project-images-section {
+		header {
+			.project-title-container {
+				h2 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 62.5rem) {
+	/* 1000px */
+	.project-images-section {
+		.project-images-container {
+			display: none;
+			// flex-direction: row;
+			justify-content: space-between;
+			// @include display-flex-jc(space-between);
+			padding: 2.8rem 0 5rem 0;
+			.project-main-image {
+				width: 100%;
+				margin-bottom: 1.5rem;
+				.main-image {
+					display: block;
+				}
+			}
+
+			.project-secondary-images {
+				// flex-direction: column;
+				@include display-flex-jc(space-between);
+				width: 100%;
+
+				.secondary-images {
+					width: 48%;
+				}
+			}
+
+			.secondary-image-one {
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 87.5rem) {
+	/* 1400px */
+	.project-images-section {
+		header {
+			.project-title-container {
+				h2 {
+					font-size: 2.2rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 121rem) {
+	/* 1936px */
+	.project-images-section {
+		header {
+			.project-title-container {
+				h2 {
+					font-size: 2.7rem;
+				}
+			}
+		}
+		.project-images-container {
+			.project-main-image {
+				.main-image {
+					border: 6px solid #fff;
+				}
+			}
+
+			.project-secondary-images {
+				.secondary-images {
+					border: 6px solid #fff;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 161rem) {
+	/* 2576px */
+	.project-images-section {
+		header {
+			.project-title-container {
+				h2 {
+					font-size: 4rem;
+				}
+			}
+		}
+		.project-images-container {
+			.project-main-image {
+				.main-image {
+					border: 8px solid #fff;
+				}
+			}
+
+			.project-secondary-images {
+				.secondary-images {
+					border: 8px solid #fff;
+				}
+			}
+		}
+	}
+}
+
+/* Technologies section */
+.technologies-section {
+	.technologies-container {
+		padding: 0 0 2.5rem 0;
+
+		.technologies-title {
+			h3 {
+				font-family: $secondary-font-family;
+				font-size: 1.8rem;
+			}
+		}
+		.technologies-lists {
+			display: none;
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+			li {
+				padding: 0.4rem 0.8rem;
+				margin: 0.4rem;
+				font-family: $secondary-font-family;
+				font-size: 1.1rem;
+				border: 3px solid $primary-border-color;
+				border-radius: 0.4rem;
+			}
+
+			li:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/* Technologies section media queries*/
+@media only screen and (min-width: 75rem) {
+	/* 1200px */
+	.technologies-section {
+		.technologies-container {
+			.technologies-title {
+				h3 {
+					font-size: 2rem;
+				}
+			}
+			.technologies-lists {
+				li {
+					margin: 0.5rem;
+					font-size: 1.1rem;
+					border: 3px solid $primary-border-color;
+				}
+
+				li:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 121rem) {
+	/* 1936px */
+	.technologies-section {
+		.technologies-container {
+			.technologies-title {
+				h3 {
+					font-size: 2.8rem;
+				}
+			}
+			.technologies-lists {
+				li {
+					margin: 1.2rem;
+					padding: 0.7rem 1.2rem;
+					font-size: 1.4rem;
+					border: 4px solid $primary-border-color;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 161rem) {
+	/* 2576px */
+	.technologies-section {
+		.technologies-container {
+			.technologies-title {
+				h3 {
+					font-size: 3.8rem;
+				}
+			}
+			.technologies-lists {
+				li {
+					padding: 1rem 1.4rem;
+					font-size: 2rem;
+					border: 5px solid $primary-border-color;
+				}
+			}
+		}
+	}
+}
+
+/* Project description section */
+.project-description-section {
+	.project-description-container {
+		padding-bottom: 4rem;
+
+		.project-description-title {
+			h3 {
+				font-family: $secondary-font-family;
+				margin-bottom: 1rem;
+				font-size: 1.8rem;
+			}
+		}
+		.project-description-info {
+			display: none;
+
+			p {
+				line-height: 1.2rem;
+			}
+		}
+	}
+}
+
+/* Project description section media queries */
+@media only screen and (min-width: 75rem) {
+	/* 1200px */
+	.project-description-section {
+		.project-description-container {
+			.project-description-title {
+				h3 {
+					margin-bottom: 1.4rem;
+					font-size: 2rem;
+				}
+			}
+			.project-description-info {
+				p {
+					font-size: 1.1rem;
+					line-height: 1.4rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 121rem) {
+	/* 1936px */
+	.project-description-section {
+		.project-description-container {
+			padding-bottom: 8rem;
+			.project-description-title {
+				h3 {
+					margin-bottom: 1.8rem;
+					font-size: 2.8rem;
+				}
+			}
+			.project-description-info {
+				p {
+					font-size: 1.4rem;
+					line-height: 2rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 161rem) {
+	/* 2576px */
+	.project-description-section {
+		.project-description-container {
+			padding-bottom: 10rem;
+			.project-description-title {
+				h3 {
+					margin-bottom: 2.4rem;
+					font-size: 3.8rem;
+				}
+			}
+			.project-description-info {
+				p {
+					font-size: 1.9rem;
+					line-height: 2.7rem;
+				}
+			}
+		}
+	}
+}
