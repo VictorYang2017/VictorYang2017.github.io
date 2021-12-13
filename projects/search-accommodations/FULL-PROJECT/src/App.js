@@ -12,6 +12,7 @@ import './App.css';
 const App = () => {
 	return (
 		<div className='App'>
+			<h1>HELLO WORLD</h1>
 			<div className='main-container'>
 				<div className='app-container container'>
 					<Router basename={'/projects/search-accommodations'}>
