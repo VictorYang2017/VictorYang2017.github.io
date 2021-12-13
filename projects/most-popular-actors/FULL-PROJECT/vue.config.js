@@ -1,3 +1,3 @@
 module.exports = {
-	publicPath: '/projects/projects2020/vue-two/',
+	publicPath: '/projects/most-popular-actors/',
 };
