@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+select,
+span,
+li,
+.accommodation-details-info,
+.accommodation-details-description {
+	color: #fff;
+	font-family: 'Barlow', sans-serif;
+}
+
+body {
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
+	font-family: 'Besley', serif;
+}
+
+button {
+	background-color: #ff8c00;
+	font-weight: bold;
+	border: 7px solid #ffa100;
+	border-radius: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.App {
+	min-width: 400px;
+}
+
+.back-home {
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.back-home:hover {
+	display: inline-block;
+	transform: scale(1.1);
+	transition: transform 300ms ease;
+}
+
+@media only screen and (max-width: 1200px) {
+	.back-home {
+		margin-left: 1rem;
+	}
+}

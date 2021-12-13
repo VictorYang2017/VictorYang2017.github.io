@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  h1= pageTitle
+    span.about-website
+      a(href="/about") [ what deos this site do? ]
+  p
+    a.button(href="/books/new") Create New Book
+    if searchQueryExist
+      a.button(href="/books", class="show-all-button") Show all books
+  form(action="/books")
+    input(id="search", type="text", name="search", placeholder="Example: Harry potter OR potter", required)
+    input(id="search-submit", type="submit", value="Search")
+  if searchQueryExist
+    span.search-result Search result for: 
+      span.search-keyword= searchQueryExist
+  if books.length > 0
+    table
+      thead
+        tr
+          th Title
+          th Author
+          th Genre
+          th Year
+      tbody
+        each book in books
+          tr
+            td
+              a(href=`/books/${book.id}`)= book.title
+            td= book.author
+            td= book.genre
+            td= book.year
+    div.pages-container
+      - for (let i = 1; i <= numOfpages; i++)
+        span.page-container
+          if searchQueryExist
+            a.page-link(href=`/books?page=${i}&search=${searchQueryExist}`, class=(currentPage === i ? 'current-page' : ''))= i
+          else
+            a.page-link(href=`/books?page=${i}`, class=(currentPage === i ? 'current-page' : ''))= i
+  else
+    h4.not-found-book-text Sorry, can't find any books...
+    img(src="/images/not-found.svg", class="not-found-img", alt="not found")

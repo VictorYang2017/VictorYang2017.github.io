@@ -1,0 +1,32 @@
+{
+	"accommodationTypes": [
+		{
+			"id": "1",
+			"slug": "hotel",
+			"type": "Hotel",
+			"minOfPeople": 1,
+			"maxOfPeople": 2
+		},
+		{
+			"id": "2",
+			"slug": "hostel",
+			"type": "Hostel",
+			"minOfPeople": 1,
+			"maxOfPeople": 6
+		},
+		{
+			"id": "3",
+			"slug": "motel",
+			"type": "Motel",
+			"minOfPeople": 2,
+			"maxOfPeople": 4
+		},
+		{
+			"id": "4",
+			"slug": "house",
+			"type": "House",
+			"minOfPeople": 1,
+			"maxOfPeople": 4
+		}
+	]
+}

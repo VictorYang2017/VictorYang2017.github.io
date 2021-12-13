@@ -1,0 +1,102 @@
+{
+    "animationClass":
+    [
+        {
+            "disabled":"disabled",
+            "id":"not-a-choice",
+            "slug": "choose-something-in-here",
+            "title":"CHOOSE SOMETHING IN HERE!"     
+        },
+        {
+            "disabled":"",
+            "id":"bounce",
+            "slug": "bounce",
+            "title": "Bounce"            
+        },
+        {
+            "disabled":"",
+            "id":"bounceIn",
+            "slug": "bounceIn",
+            "title": "BounceIn"            
+        },
+        {
+            "disabled":"",
+            "id":"pulse",
+            "slug": "pulse",
+            "title": "Pulse"            
+        },
+        {
+            "disabled":"",
+            "id":"rubberBand",
+            "slug": "rubberBand",
+            "title": "RubberBand"            
+        },
+        {
+            "disabled":"",
+            "id":"tada",
+            "slug": "tada",
+            "title": "Tada"            
+        },
+        {
+            "disabled":"",
+            "id":"jello",
+            "slug": "jello",
+            "title": "Jello"            
+        },
+        {
+            "disabled":"",
+            "id":"fadeIn",
+            "slug": "fadeIn",
+            "title": "FadeIn"            
+        },
+        {
+            "disabled":"",
+            "id":"zoomIn",
+            "slug": "zoomIn",
+            "title": "ZoomIn"            
+        },
+        {
+            "disabled":"",
+            "id":"zoomInUp",
+            "slug": "zoomInUp",
+            "title": "ZoomInUp"            
+        },
+        {
+            "disabled":"",
+            "id":"jackInTheBox",
+            "slug": "jackInTheBox",
+            "title": "JackInTheBox"            
+        },
+        {
+            "disabled":"",
+            "id": "hinge",
+            "slug": "hinge",
+            "title": "Hinge"            
+        },
+        {
+            "disabled":"",
+            "id":"flipInX",
+            "slug": "flipInX",
+            "title": "FlipInX"            
+        },
+        {
+            "disabled":"",
+            "id":"flipInY",
+            "slug": "flipInY",
+            "title": "FlipInY"            
+        },
+        {
+            "disabled":"",
+            "id":"swing",
+            "slug": "swing",
+            "title": "Swing"            
+        },
+        {
+            "disabled":"",
+            "id":"shake",
+            "slug": "shake",
+            "title": "Shake"            
+        }
+
+    ]
+}

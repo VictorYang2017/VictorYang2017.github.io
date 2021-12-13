@@ -1,0 +1,10 @@
+.not-found-container .message {
+	margin: 4rem 0;
+	text-align: center;
+}
+
+.not-found-container span {
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: 'Besley', serif;
+}

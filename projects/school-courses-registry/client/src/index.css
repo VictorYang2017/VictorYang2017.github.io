@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+label {
+	font-family: 'Lato', sans-serif;
+}
+
+p,
+li,
+input,
+textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+	min-width: 360px;
+}
+
+input,
+textarea {
+	border: 2px solid #8c789b;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header .header--signedin li {
+	font-size: 0.9rem;
+}
+
+.course--module {
+	padding: 2rem;
+}
+
+.course--module .course--label {
+	margin-bottom: 0.5rem;
+}
+
+.course--detail--title {
+	border-bottom: 2px solid #888;
+}
+
+.wrap .main--flex h3,
+.wrap .main--flex h1 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.wrap .main--flex ul li {
+	margin: 0 0 0.4rem 1rem;
+}
+
+.wrap .main--flex .course--detail--list {
+	margin: 0;
+}
+
+.wrap .main--flex .course--detail--list li::marker {
+	font-weight: bold;
+}
+
+.wrap .main--flex img {
+	width: 100%;
+}

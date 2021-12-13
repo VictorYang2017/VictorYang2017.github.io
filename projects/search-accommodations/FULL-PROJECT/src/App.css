@@ -1,0 +1,30 @@
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #fff;
+}
+
+.app-container {
+	width: 1500px;
+	/* height: 500px; Temp */
+	margin: 5rem;
+	padding: 5rem;
+	background-color: #323232;
+	box-shadow: 2px 5px 100px 0 #7f7f7f;
+}
+
+@media only screen and (max-width: 1200px) {
+	.app-container {
+		margin: 4rem;
+		padding: 4rem;
+	}
+}
+
+@media only screen and (max-width: 835px) {
+	.app-container {
+		margin: 2rem;
+		padding: 2rem 1rem;
+	}
+}

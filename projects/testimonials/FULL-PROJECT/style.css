@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	color: #f2f2f2;
+}
+
+h2,div,span,a,button{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #191919;
+}
+
+#main-container {
+	width: 90%;
+	max-width: 1400px;
+	min-width: 530px;
+	margin: 8rem auto;
+	background-color: #262626;
+	/* border: 8px solid #4c4c4c; */
+	border-radius: 1rem;
+	padding: 3rem 3rem 0 3rem;
+	box-shadow: 10px 0 20px 5px rgba(12, 12, 12, 0.4);
+}
+
+#content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 1.5rem;
+}
+
+.testimonial-container {
+	padding: 1.5rem;
+	border: 7px solid rgba(76, 76, 76, 0.2);
+	border-radius: 1rem;
+}
+
+.testimonial-user-primary-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.8rem;
+}
+
+.testimonial-user-primary-info h2 {
+	flex: 1;
+	margin-left: 1rem;
+	/* border: 2px solid green; */
+}
+
+.testimonial-user-primary-info img {
+	max-width: 150px;
+	width: 35%;
+	/* border: 2px solid green; */
+	border-radius: 10%;
+}
+
+.testimonial-user-email{
+    margin-top:0.2rem;
+}
+
+.user-testimonial {
+	position: relative;
+	width: 65%;
+	/* border: 2px solid green; */
+	margin: 4.5rem auto 2rem auto;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.user-testimonial::before {
+	content: '';
+	position: relative;
+	width: 1.2rem;
+	height: 1.2rem;
+    top:-1rem;
+    left: -1.5rem;
+	background-image: url('./assets/icons/quote-left.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(180deg) scaleX(-1);
+}
+
+.user-testimonial::after {
+	content: '';
+	position: relative;
+	width: 1.2rem;
+	height: 1.2rem;
+    bottom:-1rem;
+    left:100%;
+	background-image: url('./assets/icons/quote-left.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(180deg);
+}
+
+.button-container {
+	display: flex;
+}
+
+button {
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin: 2rem 0;
+	padding: 0.8rem 2rem;
+	border: 3px solid #ffbb00;
+	cursor: pointer;
+	background-color: #ff9100;
+	border-radius: 0.3rem;
+}
+
+button:focus {
+	outline: 0;
+}
+
+/* Components that are going to show when a condition meets */
+.disabled {
+	cursor: default;
+	background-color: #a0a0a0;
+	color: #b7b7b7;
+	border-color: #b7b7b7;
+}
+
+.no-data {
+	display: none;
+	align-items: flex-end;
+	margin: 2rem 0 2rem 1rem;
+	font-weight: bold;
+	color: #ff9100;
+}
+
+
+.icons-8{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 1rem 1rem 0;
+}
+
+.icons-8 a{
+    margin: 0 0.2rem 0 0.2rem;
+}
