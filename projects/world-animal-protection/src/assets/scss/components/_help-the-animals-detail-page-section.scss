@@ -1,0 +1,422 @@
+/* Help the animals "Detail" page */
+// Banner section
+.animal-detail-page-banner{
+    height:480px;
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+// Heading section
+.animal-detail-page-heading-section{
+    background-color:$wap-section-background-color;
+    height:120px;
+}
+
+.animal-detail-page-heading{
+    height:120px;
+}
+
+.animal-detail-page-heading h4{
+    font-size:1.5vw;
+    font-weight: bold;
+}
+
+// Content section
+.animal-detail-page-content-section{
+    width:50%;
+}
+
+.animal-detail-page-content{
+    margin-top:100px;
+}
+
+.animal-detail-page-content-section .animal-detail-page-content p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.animal-detail-page-content p{
+    font-size: 1vw;
+}
+
+.animal-detail-page-content p img{
+    width:23vw;
+    height:300px;
+    margin: 20px 0 10px 0;
+}
+
+// Animal petition, Donate and Shop section
+.animal-detail-page-petition-donate-shop-section{
+    border-top:2px solid #e5e4e4;
+    margin-top:100px;
+    padding-top:50px;
+    margin-bottom: 100px;
+    width:50%;
+}
+
+.animal-detail-page-petition-donate-shop-heading{
+    margin-bottom:22px;
+}
+
+.animal-detail-page-petition-donate-shop-heading h5{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.animal-detail-page-petition-donate-shop-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.animal-detail-page-petition-donate-shop--petition{
+    width:60%;
+    border:3px solid $wp-category-border-color;
+    padding:30px 25px;
+}
+
+.animal-detail-page-petition-donate-shop--petition input{
+    border:2px solid #999999;
+}
+
+.petition-first-last-name input{
+    width:48%;
+}
+
+.petition-button, .petition-button input{
+    width:100%;
+    height: 48px;
+    background-color:$wap-primary-color;
+    border-color: $wap-lighter-primary-color;
+    color:$white;
+    font-size: 1.1vw;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.petition-first-last-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.animal-detail-page-petition-donate-shop--petition--donate-shop{
+    width:25%;
+}
+
+.animal-detail-page-donate-button{
+    margin-bottom:34px;
+}
+
+.animal-detail-page-donate-button, .animal-detail-page-shop-button{
+    height:121px;
+    border:2px solid $wap-lighter-primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.1vw;
+    font-weight: bold;
+    background-color: $wap-primary-color;
+    border-radius: 5px;
+}
+
+.animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+    font-size:1.4vw;
+    font-weight: bold;
+    color: $white;
+}
+
+// Media query for help the animals detail page
+@media only screen and (max-width:1400px){
+    .animal-detail-page-heading h4{
+        font-size:2vw;
+    }
+
+    .animal-detail-page-content-section{
+        width:60%;
+    }
+
+    .animal-detail-page-petition-donate-shop-section{
+        width:60%;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 1.7vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:27vw;
+        height:300px;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width:1180px){
+    .animal-detail-page-banner{
+        height:420px;
+    }
+
+    .animal-detail-page-heading h4{
+        font-size:2.5vw;
+    }
+
+    .animal-detail-page-content-section{
+        width:70%;
+    }
+
+    .animal-detail-page-petition-donate-shop-section{
+        width:70%;
+    }
+
+    .animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+        font-size:1.8vw;
+    }
+
+
+    .petition-button, .petition-button input{
+        font-size: 1.7vw;
+    }
+
+    .animal-detail-page-petition-donate-shop--petition--donate-shop {
+        width: 30%;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 1.9vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:31vw;
+        height:300px;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 1.6vw;
+    }
+
+}
+
+@media only screen and (max-width:1050px){
+    .animal-detail-page-banner{
+        height:370px;
+    }
+
+    .animal-detail-page-heading h4{
+        font-size:2.9vw;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 2vw;
+    }
+
+    .animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+        font-size:2.2vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:32vw;
+        height:280px;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 1.7vw;
+    }
+
+    .animal-detail-page-content{
+        margin-top:40px;
+    }
+
+}
+
+@media only screen and (max-width:850px){
+    .animal-detail-page-banner{
+        height:320px;
+    }
+
+    .animal-detail-page-content-section{
+        width:80%;
+    }
+
+    .animal-detail-page-petition-donate-shop-section{
+        width:80%;
+    }
+
+    .animal-detail-page-heading h4{
+        font-size:3.5vw;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 2.4vw;
+    }
+
+    .animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+        font-size:2.4vw;
+    }
+
+    .petition-button, .petition-button input{
+        font-size: 2.1vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:32vw;
+        height:220px;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .animal-detail-page-content-section{
+        width:90%;
+    }
+
+    .animal-detail-page-petition-donate-shop-section{
+        width:90%;
+    }
+
+    .animal-detail-page-petition-donate-shop-section{
+        width:90%;
+
+    }
+
+    .animal-detail-page-petition-donate-shop-contents{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .animal-detail-page-petition-donate-shop--petition{
+        width: 100%;
+    }
+
+    .animal-detail-page-petition-donate-shop--petition--donate-shop{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .animal-detail-page-petition-donate-shop--petition--donate-shop a{
+        width:100%;
+    }
+
+    .animal-detail-page-donate-button, .animal-detail-page-shop-button{
+        width:95%;
+        margin:20px auto 50px auto;
+    }
+
+    .animal-detail-page-heading h4{
+        font-size:4vw;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 3.1vw;
+    }
+
+    .animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+        font-size:3.1vw;
+    }
+
+    .petition-button, .petition-button input{
+        font-size: 2.3vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:80vw;
+        height:400px;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 2.3vw;
+    }
+
+
+}
+
+@media only screen and (max-width:640px){
+    .animal-detail-page-banner{
+        height:250px;
+    }
+
+    .animal-detail-page-content-section{
+        width:85%;
+        margin: auto;
+    }
+
+    .animal-detail-page-petition-donate-shop-section{
+        width:85%;
+
+    }
+
+    .animal-detail-page-content p img{
+        height: 48vh;
+        margin:0 auto 20px 0;
+    }
+
+    .animal-detail-page-heading h4{
+        font-size:4.7vw;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 3.3vw;
+    }
+
+    .petition-button, .petition-button input{
+        font-size: 2.6vw;
+    }
+
+    .animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+        font-size:3.3vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:80vw;
+        height:400px;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 2.7vw;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .animal-detail-page-banner{
+        height:200px;
+    }
+
+    .animal-detail-page-content p img{
+        height: 38vh;
+    }
+
+    .animal-detail-page-heading h4{
+        font-size:5.2vw;
+    }
+
+    .animal-detail-page-petition-donate-shop-heading h5{
+        font-size: 3.8vw;
+    }
+
+    .petition-button, .petition-button input{
+        font-size: 3.2vw;
+    }
+
+    .animal-detail-page-donate-button h5, .animal-detail-page-shop-button h5{
+        font-size:3.9vw;
+    }
+
+    .animal-detail-page-content p img{
+        width:80vw;
+        height:auto;
+    }
+
+    .animal-detail-page-content p{
+        font-size: 3.1vw;
+    }
+}

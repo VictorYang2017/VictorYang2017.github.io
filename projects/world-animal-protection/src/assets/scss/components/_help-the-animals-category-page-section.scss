@@ -1,0 +1,299 @@
+/* Help the animals "Category" page */
+
+.animal-category-main-container .animal-category-page-content-section h6{
+    margin:40px 0 70px 0;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+// Banner section
+.animal-category-page-banner{
+    height:480px;
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+// Heading section
+.animal-category-page-heading-section{
+    background-color:$wap-section-background-color;
+    height:120px;
+}
+
+.animal-category-page-heading{
+    height:120px;
+}
+
+.animal-category-page-heading h4{
+    font-size:1.6vw;
+    font-weight: bold;
+}
+
+// Content section
+.individual-contents{
+    margin: 100px 0 140px 0;
+}
+.articles-featured-image{
+    width: 15vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.articles-featured-image{
+    margin-right:30px;
+}
+
+.individual-posts{
+    width:50%;
+}
+
+.individual-posts h2{
+    font-weight: bold;
+    font-size: 1.6vw;
+    padding-bottom:5px;
+}
+
+.posts-date-category{
+    padding-bottom:20px;
+    font-size: 0.9vw;
+}
+
+.posts-category{
+    border:2px solid $wp-category-border-color;
+    padding:0 8px;
+    user-select: none;
+}
+
+.entry{
+    font-size:1.1vw;
+}
+
+.individual-posts-button{
+    padding:10px 0;
+    background-color:$wap-primary-color;
+    width:100%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.individual-posts-button--button{
+    font-size: 1.2vw;
+    color:$white;
+    user-select: none;
+    cursor: pointer;
+}
+
+// Help the animals category media query
+@media only screen and (max-width:1400px){
+    .animal-category-page-heading h4{
+        font-size:2.2vw;
+    }
+
+    .individual-posts h2{
+        font-size: 1.8vw;
+    }
+
+    .posts-date-category{
+        font-size: 1.2vw;
+    }
+
+    .entry{
+        font-size:1.2vw;
+    }
+
+    .individual-posts-button--button{
+        font-size: 1.4vw;
+    }
+
+}
+
+@media only screen and (max-width:1180px){
+    .animal-category-page-heading h4{
+        font-size:2.6vw;
+    }
+
+    .individual-posts h2{
+        font-size: 2vw;
+    }
+
+    .posts-date-category{
+        font-size: 1.4vw;
+    }
+
+    .entry{
+        font-size:1.3vw;
+    }
+
+    .individual-posts-button--button{
+        font-size: 1.6vw;
+    }
+
+    .articles-featured-image{
+        width:17vw;
+    }
+
+}
+
+@media only screen and (max-width:1050px){
+    .animal-category-page-heading h4{
+        font-size:2.8vw;
+    }
+
+    .individual-posts h2{
+        font-size: 2.3vw;
+    }
+
+    .posts-date-category{
+        font-size: 1.6vw;
+    }
+
+    .entry{
+        font-size:1.5vw;
+    }
+
+    .individual-posts-button--button{
+        font-size: 1.7vw;
+    }
+
+    .articles-featured-image{
+        width:20vw;
+    }
+
+    .animal-category-page-banner{
+        height:380px;
+    }
+
+}
+
+@media only screen and (max-width:850px){
+    .individual-contents{
+        flex-direction: column;
+    }
+
+    .articles-featured-image{
+        width:100%;
+        height:35vh;
+    }
+
+    .individual-posts{
+        width:100%;
+    }
+
+    .animal-category-page-heading h4{
+        font-size:3.3vw;
+    }
+
+    .individual-posts h2{
+        font-size: 2.6vw;
+        margin-top:12px;
+    }
+
+    .posts-date-category{
+        font-size: 1.8vw;
+    }
+
+    .entry{
+        font-size:1.8vw;
+        margin-bottom:20px;
+    }
+
+    .individual-posts-button--button{
+        font-size: 2.5vw;
+    }
+
+    .animal-category-page-banner{
+        height:320px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .articles-featured-image{
+        height:40vh;
+    }
+
+    .animal-category-page-heading h4{
+        font-size:3.8vw;
+    }
+
+    .individual-posts h2{
+        font-size: 2.8vw;
+    }
+
+    .posts-date-category{
+        font-size: 2vw;
+    }
+
+    .entry{
+        font-size:2vw;
+    }
+
+    .individual-posts-button--button{
+        font-size: 2.8vw;
+    }
+
+    .animal-category-page-banner{
+        height:280px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .articles-featured-image{
+        height:40vh;
+    }
+
+    .animal-category-page-heading h4{
+        font-size:4.7vw;
+    }
+
+    .individual-posts h2{
+        font-size: 3.5vw;
+    }
+
+    .posts-date-category{
+        font-size: 2.5vw;
+    }
+
+    .entry{
+        font-size:2.5vw;
+    }
+
+    .individual-posts-button--button{
+        font-size: 3.3vw;
+    }
+
+    .animal-category-page-banner{
+        height:220px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .articles-featured-image{
+        height:42vh;
+    }
+
+    .animal-category-page-heading h4{
+        font-size:5.2vw;
+    }
+
+    .individual-posts h2{
+        font-size: 4.2vw;
+    }
+
+    .posts-date-category{
+        font-size: 3vw;
+    }
+
+    .entry{
+        font-size:3vw;
+    }
+
+    .individual-posts-button--button{
+        font-size: 4.2vw;
+    }
+
+    .animal-category-page-banner{
+        height:200px;
+    }
+}
