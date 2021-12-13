@@ -14,7 +14,7 @@ const App = () => {
 		<div className='App'>
 			<div className='main-container'>
 				<div className='app-container container'>
-					<Router>
+					<Router basename={'/projects/search-accommodations'}>
 						<Switch>
 							<Route exact path='/' component={Home} />
 							<Route path='/popular' component={PopularResults} />
