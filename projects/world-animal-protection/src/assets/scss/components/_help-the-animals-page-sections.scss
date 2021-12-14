@@ -1,0 +1,194 @@
+/* Help the animals page */
+// Banner
+.help-the-animals-page-banner{
+    background-image: url('../images/help-the-animals-page-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:480px;
+}
+// Heading
+.help-the-animals-page-heading-section{
+    background-color:$wap-section-background-color;
+    height:120px;
+}
+
+.help-the-animals-page-heading{
+    height:120px;
+}
+
+.help-the-animals-page-heading h4{
+    font-size:1.7vw;
+    font-weight: bold;
+}
+// Content
+
+.help-the-animals-page-content{
+    margin:auto;
+    margin-bottom: 100px;
+}
+
+.animal-category{
+    margin-top:70px;
+}
+
+.chicken-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/chickens.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dog-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/dogs.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cat-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/cats.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pig-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/pigs.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cow-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/cows.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.monkey-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/monkeys.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.elephant-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/elephants.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tiger-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/tigers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bear-category{
+    height:350px;
+    user-select: none;
+    cursor: pointer;
+    background-image: url('../images/bears.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.animal-cover{
+    height:350px;
+    font-size: 0;
+}
+
+.animal-cover:hover{
+    background-color:rgba(0,0,0,0.5);
+    font-size: 2.2vw;
+    font-weight: bold;
+    color:$wap-primary-color;
+}
+
+// Help the animals page media query
+@media only screen and (max-width:1400px){
+    .help-the-animals-page-heading h4{
+        font-size:2.4vw;
+    }
+
+    .animal-cover:hover{
+        font-size: 2.8vw;
+    }
+
+}
+@media only screen and (max-width:1000px){
+    .help-the-animals-page-heading h4{
+        font-size:2.9vw;
+    }
+
+    .animal-cover:hover{
+        font-size: 4.5vw;
+    }
+
+    .help-the-animals-page-banner{
+        height:380px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .help-the-animals-page-heading h4{
+        font-size:3.8vw;
+    }
+
+    .animal-cover:hover{
+        font-size: 5.8vw;
+    }
+
+    .help-the-animals-page-banner{
+        height:350px;
+    }
+}
+
+@media only screen and (max-width:620px){
+    .help-the-animals-page-heading h4{
+        font-size:4.7vw;
+    }
+
+    .animal-cover:hover{
+        font-size: 7vw;
+    }
+
+    .help-the-animals-page-banner{
+        height:350px;
+    }
+
+    .help-the-animals-page-banner{
+        height:220px;
+    }
+}
+
+
