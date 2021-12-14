@@ -1,1 +1,3 @@
-- add wap wordpress project
+- update all project app tab title(html)
+
+- check iamcj2021@gmail.com when did I register this email
