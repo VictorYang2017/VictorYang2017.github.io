@@ -143,7 +143,7 @@
 			"id": 8,
 			"slug": "search-people",
 			"title": "Search people",
-			"description": "Coming soon!",
+			"description": "This site uses pagination to display large amount of data(people infos). Users can do a search on this site and the pagination will change base on the result, so if the result only found 1 person then there is only one page but if the result found 18 people then there will be three pages.",
 			"technologies": ["HTML5", "CSS3", "Javascript", "REST API"],
 			"projectSite": "https://victoryang2017.github.io/projects/search-people",
 			"projectCode": "https://github.com/VictorYang2017/victoryang2017.github.io/tree/master/projects/search-people/FULL-PROJECT",
