@@ -1,2 +1,0 @@
-# Search accommodations
-search-accommodations
