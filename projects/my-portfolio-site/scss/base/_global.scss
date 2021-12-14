@@ -1,96 +1,90 @@
-/* Temp */
-// body{
-//     background-color:pink;
-// }
-/* Temp */
-
-body{
-    background-color: $primary-color;
+body {
+	background-color: $primary-color;
 }
 
-h1,h2{
-    font-family: $primary-font-family;
+h1,
+h2 {
+	font-family: $primary-font-family;
 }
 
-
-h3{
-    margin-bottom: 0.7rem;
-    font-family: $primary-font-family;
-    font-size: 2rem;
+h3 {
+	margin-bottom: 0.7rem;
+	font-family: $primary-font-family;
+	font-size: 2rem;
 }
 
-p{
-    font-family: $secondary-font-family;
+p {
+	font-family: $secondary-font-family;
 }
 
-a{
-    text-decoration: none;
-    font-family: $secondary-font-family;
-    user-select: none;
+a {
+	text-decoration: none;
+	font-family: $secondary-font-family;
+	user-select: none;
 }
 
-button{
-    font-family: $secondary-font-family;
-    cursor: pointer;
-    user-select: none;
+button {
+	font-family: $secondary-font-family;
+	cursor: pointer;
+	user-select: none;
 }
 
-img{
-    border-radius: 0.4rem;
+img {
+	border-radius: 0.4rem;
 }
 
-.no-scroll{
-    overflow: hidden;
+.no-scroll {
+	overflow: hidden;
 }
 
 @media only screen and (min-width: 64rem) {
-    /* 1024px */
-    .no-scroll{
-        overflow: auto;
-    }
+	/* 1024px */
+	.no-scroll {
+		overflow: auto;
+	}
 }
 
-@media only screen and (min-width:75rem) {
-    /* 1200px */
-    h3{
-        font-size: 2.5rem;
-    }
+@media only screen and (min-width: 75rem) {
+	/* 1200px */
+	h3 {
+		font-size: 2.5rem;
+	}
 
-    p{
-        font-size: 1.1rem;
-        line-height: 1.32;
-    }
+	p {
+		font-size: 1.1rem;
+		line-height: 1.32;
+	}
 }
 
-@media only screen and (min-width:87.5rem) {
-    /* 1400px */
-    h3{
-        font-size: 2.8rem;
-    }
+@media only screen and (min-width: 87.5rem) {
+	/* 1400px */
+	h3 {
+		font-size: 2.8rem;
+	}
 }
 
 @media only screen and (min-width: 121rem) {
-    /* 1936px */
-    h3{
-        margin-bottom: 0.9rem;
-        font-size: 3.5rem;
-    }
+	/* 1936px */
+	h3 {
+		margin-bottom: 0.9rem;
+		font-size: 3.5rem;
+	}
 
-    p{
-        font-size: 1.3rem;
-        line-height: 1.35;
-    }
+	p {
+		font-size: 1.3rem;
+		line-height: 1.35;
+	}
 }
 
 @media only screen and (min-width: 161rem) {
-    /* 2576px */
-    h3{
-        margin-bottom: 1.1rem;
-        font-size: 5.2rem;
-    }
+	/* 2576px */
+	h3 {
+		margin-bottom: 1.1rem;
+		font-size: 5.2rem;
+	}
 
-    p{
-        font-size: 1.8rem;
-        line-height: 1.38;
-    }
+	p {
+		font-size: 1.8rem;
+		line-height: 1.38;
+	}
 }

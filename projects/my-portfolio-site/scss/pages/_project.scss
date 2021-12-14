@@ -67,9 +67,7 @@
 	.project-images-section {
 		.project-images-container {
 			display: none;
-			// flex-direction: row;
 			justify-content: space-between;
-			// @include display-flex-jc(space-between);
 			padding: 2.8rem 0 5rem 0;
 			.project-main-image {
 				width: 100%;
@@ -79,18 +77,8 @@
 				}
 			}
 
-			.project-secondary-images {
-				// flex-direction: column;
-				@include display-flex-jc(space-between);
-				width: 100%;
-
-				.secondary-images {
-					width: 48%;
-				}
-			}
-
 			.secondary-image-one {
-				margin: 0;
+				margin: 0 0 1.5rem 0;
 			}
 		}
 	}
@@ -104,6 +92,20 @@
 				h2 {
 					font-size: 2.2rem;
 				}
+			}
+		}
+		.project-images-container {
+			.project-secondary-images {
+				@include display-flex-jc(space-between);
+				width: 100%;
+
+				.secondary-images {
+					width: 48%;
+				}
+			}
+
+			.secondary-image-one {
+				margin: 0;
 			}
 		}
 	}

@@ -1,24 +1,31 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p,a{
-    margin:0;
-    padding:0;
-    color: $light-text-color;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	margin: 0;
+	padding: 0;
+	color: $light-text-color;
 }
 
-li{
-    color:$light-text-color;
-    list-style: none;
+li {
+	color: $light-text-color;
+	list-style: none;
 }
 
-button{
-    margin:0;
-    padding:0;
-    background-color:transparent;
-    color: $light-text-color;
-    outline:none;
+button {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	color: $light-text-color;
+	outline: none;
 }

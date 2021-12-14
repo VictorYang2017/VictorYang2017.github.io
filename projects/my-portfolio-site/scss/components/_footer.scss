@@ -1,77 +1,76 @@
-footer{
-    @include section-background-image('../assets/cloud-with-opacity.png');
-    background-color: $primary-color;
-    .footer-container{
-        @include display-flex-full(center,center);
-        flex-direction: column;
-        padding:3rem;
-        .footer-logo{
-            margin-bottom:0.7rem;
-            img{
-                width:3.2rem;
-            }
-        }
-        .footer-contact-me{
-            h4{
-                font-family: $secondary-font-family;
-            }
-            span{
-                font-weight: bold;
-            }
-        }
-    }
+footer {
+	@include section-background-image('../assets/cloud-with-opacity.png');
+	background-color: $primary-color;
+	.footer-container {
+		@include display-flex-full(center, center);
+		flex-direction: column;
+		padding: 3rem;
+		.footer-logo {
+			margin-bottom: 0.7rem;
+			img {
+				width: 3.2rem;
+			}
+		}
+		.footer-contact-me {
+			h4 {
+				font-family: $secondary-font-family;
+			}
+			span {
+				font-weight: bold;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 87.5rem) {
-    /* 1400px */
-    footer{
-        .footer-container{
-            .footer-logo{
-                img{
-                    width:3.7em;
-                }
-            }
-           
-        }
-    }
+	/* 1400px */
+	footer {
+		.footer-container {
+			.footer-logo {
+				img {
+					width: 3.7em;
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 121rem) {
-    /* 1936px */
-    footer{
-        .footer-container{
-            padding:4.2rem;
-            .footer-logo{
-                margin-bottom:1rem;
-                img{
-                    width:4.2rem;
-                }
-            }
-            .footer-contact-me{
-                h4{
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    }
+	/* 1936px */
+	footer {
+		.footer-container {
+			padding: 4.2rem;
+			.footer-logo {
+				margin-bottom: 1rem;
+				img {
+					width: 4.2rem;
+				}
+			}
+			.footer-contact-me {
+				h4 {
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 161rem) {
-    /* 2576px */
-    footer{
-        .footer-container{
-            padding:6.5rem;
-            .footer-logo{
-                margin-bottom:1.8rem;
-                img{
-                    width:6.5rem;
-                }
-            }
-            .footer-contact-me{
-                h4{
-                    font-size: 1.8rem;
-                }
-            }
-        }
-    }
+	/* 2576px */
+	footer {
+		.footer-container {
+			padding: 6.5rem;
+			.footer-logo {
+				margin-bottom: 1.8rem;
+				img {
+					width: 6.5rem;
+				}
+			}
+			.footer-contact-me {
+				h4 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
 }

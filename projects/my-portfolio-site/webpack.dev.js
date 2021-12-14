@@ -19,7 +19,7 @@ module.exports = {
 				warnings: true,
 				errors: true,
 			},
-		}
+		},
 	},
 	stats: 'minimal',
 	devtool: 'source-map',

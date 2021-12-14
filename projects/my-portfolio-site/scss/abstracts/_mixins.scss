@@ -1,73 +1,79 @@
 @mixin hero-background-image($path) {
-  background-image: radial-gradient(circle, rgba(255,255,255,0.1), rgba(0,0,0,0.5), rgba(0,0,0,1)), url($path) ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; 
+	background-image: radial-gradient(
+			circle,
+			rgba(255, 255, 255, 0.1),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)
+		),
+		url($path);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
-@mixin section-background-image($path){
-  background-image: url($path);
-  background-position: 100% 10rem;
-  background-size: 30%;
-  background-repeat: repeat;
+@mixin section-background-image($path) {
+	background-image: url($path);
+	background-position: 100% 10rem;
+	background-size: 30%;
+	background-repeat: repeat;
 }
 
-@mixin background-image{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; 
+@mixin background-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 @mixin display-flex-jc($position-jc) {
-  display: flex;
-  justify-content: $position-jc;
+	display: flex;
+	justify-content: $position-jc;
 }
 
 @mixin display-flex-ai($position-ai) {
-  display: flex;
-  align-items: $position-ai;
+	display: flex;
+	align-items: $position-ai;
 }
 
-@mixin display-flex-full($position-jc,$position-ai) {
-  display: flex;
-  justify-content: $position-jc;
-  align-items: $position-ai;
+@mixin display-flex-full($position-jc, $position-ai) {
+	display: flex;
+	justify-content: $position-jc;
+	align-items: $position-ai;
 }
 
-@mixin grid-template-columns-autofill($minmax){
-  grid-template-columns: repeat(auto-fill, minmax(#{$minmax}rem, 1fr));
+@mixin grid-template-columns-autofill($minmax) {
+	grid-template-columns: repeat(auto-fill, minmax(#{$minmax}rem, 1fr));
 }
 
 @mixin blink-keyframe {
-  @keyframes blink {
-    0%{
-        opacity: 0;
-        transform: translate(-50%, 0) rotate(90deg);
-    }
+	@keyframes blink {
+		0% {
+			opacity: 0;
+			transform: translate(-50%, 0) rotate(90deg);
+		}
 
-    10%{
-        opacity: 0.1;
-    }
+		10% {
+			opacity: 0.1;
+		}
 
-    30%{
-        opacity: 0.2;
-    }
+		30% {
+			opacity: 0.2;
+		}
 
-    50%{
-        opacity: 0.4;
-    }
+		50% {
+			opacity: 0.4;
+		}
 
-    70%{
-        opacity: 0.6;
-    }
+		70% {
+			opacity: 0.6;
+		}
 
-    90%{
-        opacity: 0.8;
-    }
+		90% {
+			opacity: 0.8;
+		}
 
-    100%{
-        opacity: 0.9;
-        transform: translate(-50%, 20%) rotate(90deg);
-    }
-};
+		100% {
+			opacity: 0.9;
+			transform: translate(-50%, 20%) rotate(90deg);
+		}
+	}
 }

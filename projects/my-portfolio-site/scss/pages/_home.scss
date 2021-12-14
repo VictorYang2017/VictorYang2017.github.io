@@ -343,17 +343,17 @@
 			border: 4px solid $primary-border-color;
 			transition: border 250ms ease;
 
-			&::after{
+			&::after {
 				position: absolute;
-				top:50%;
-				left:50%;
+				top: 50%;
+				left: 50%;
 				font-style: italic;
 				font-weight: bold;
-				font-family: "Lato", sans-serif;
+				font-family: 'Lato', sans-serif;
 				text-align: center;
 				transform: translate(-50%, -50%);
 				white-space: pre;
-				color:#fff;
+				color: #fff;
 			}
 
 			&:hover {
@@ -406,89 +406,78 @@
 		}
 
 		.world-animal-protection {
-			// Background image
 			background-image: url('../assets/world-animal-protection-1.png');
-			&::after{
+			&::after {
 				content: 'Wordpress, \A Custom theme, \A Woocommerce';
 			}
 		}
 
 		.books-library-manager {
-			// Background image
 			background-image: url('../assets/books-library-manager-1.png');
-			&::after{
+			&::after {
 				content: 'Express.js, \A Sequelize ORM, \A Sqlite3';
 			}
 		}
 
 		.employee-data-look-up {
-			// Background image
 			background-image: url('../assets/employee-data-look-up-1.png');
-			&::after{
+			&::after {
 				content: 'Lightbox Modal, \A Data filtering';
 			}
 		}
 
 		.most-popular-actors {
-			// Background image
 			background-image: url('../assets/movie-db-actors-1.png');
-			&::after{
+			&::after {
 				content: 'Vue.js(v3), \A Vue Router, \A GSAP Animation';
 			}
 		}
 
 		.user-testimonials {
-			// Background image
 			background-image: url('../assets/testimonials-1.png');
-			&::after{
+			&::after {
 				content: 'Responsive, \A Click to load data';
 			}
 		}
 
 		.search-accommodations {
-			// Background image
 			background-image: url('../assets/accommodations-1.png');
-			&::after{
+			&::after {
 				content: 'React.js, \A React Hooks, \A Redux';
 			}
 		}
 
 		.school-courses-registry {
-			// Background image
 			background-image: url('../assets/school-courses-registry-5.png');
-			&::after{
+			&::after {
 				content: 'React.js(Class), \A Context API, \A Express.js, \A Auth';
 			}
 		}
 
 		.search-people {
-			// Background image
 			background-image: url('../assets/search-people-3.png');
-			&::after{
+			&::after {
 				content: 'Pagination, \A Data filtering';
 			}
 		}
 
 		.simple-crud-todo {
-			// Background image
 			background-image: url('../assets/simple-crud-todo-list-1.png');
-			&::after{
+			&::after {
 				content: 'Javascript OOP, \A JS Date API';
 			}
 		}
 
 		.my-portfolio-site {
-			// Background image
 			background-image: url('../assets/portfolio-website-1.png');
-			&::after{
+			&::after {
 				content: '4K Ready, \A Webpack, \A SCSS';
 			}
 		}
 
 		.website-login-ui {
-			// Background image
 			background-image: url('../assets/website-login-1.png');
-			&::after{
+			&::after {
 				content: 'Form Validation, \A CSS Animation, \A Jquery';
 			}
 		}

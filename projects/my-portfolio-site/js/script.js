@@ -12,7 +12,6 @@ const projectsPage = document.getElementById('project-container');
 fetch(projectsData)
 	.then((res) => res.json())
 	.then((data) => {
-		// console.log(data);
 		if (homePage) {
 			const projectsContainerHtml = document.querySelector(
 				'.projects-container'
@@ -95,7 +94,9 @@ fetch(projectsData)
 				projectInfoEl.style.display = 'block';
 
 				codeLinkA.href = currentProject.projectCode;
-				currentProject.projectSite !== '#' ? websiteLinkA.href = currentProject.projectSite : websiteLinkA.classList.add('not-avaliable');
+				currentProject.projectSite !== '#'
+					? (websiteLinkA.href = currentProject.projectSite)
+					: websiteLinkA.classList.add('not-avaliable');
 
 				currentProject.technologies.forEach((technology) => {
 					const technologyListEl = technologiesListElSetup(technology);
@@ -109,18 +110,3 @@ fetch(projectsData)
 			}
 		}
 	});
-
-// function mobileNav(clsEl, containerEl, navEl, amlEl) {
-// 	console.log(amlEl);
-// 	amlEl.forEach((link) => {
-// 		link.addEventListener('click', () => {
-// 			containerEl.style.transform = 'translateX(-100%)';
-// 		});
-// 	});
-// 	navEl.addEventListener('click', () => {
-// 		containerEl.style.transform = 'translateX(0)';
-// 	});
-// 	clsEl.addEventListener('click', () => {
-// 		containerEl.style.transform = 'translateX(-100%)';
-// 	});
-// }
